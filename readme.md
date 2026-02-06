@@ -12,6 +12,7 @@ Buy BTC with USD -> Buy ETH with BTC -> Sell ETH for USD
 Here is an example output from the tool, utilizing a BBS strategy with the tickers BTC-USD, DOGE-BTC, and DOGE-USD to turn $100 into $100.139. The price is well, the price, and the "size" is the volume of the given currency that is available at the top of the market on a given Ask/Bid.
 
 `1694202527.64:SUCCESS:BBS:100.0->100.139:VOLUME=False:BTCUSD-{'topAskPrice': Decimal('25859.06'), 'topAskSize': Decimal('0.057'), 'topBidPrice': Decimal('25858.63'), 'topBidSize': Decimal('0.05046')},DOGEBTC-{'topAskPrice': Decimal('0.000002441'), 'topAskSize': Decimal('36.49316115'), 'topBidPrice': Decimal('0.00000243'), 'topBidSize': Decimal('59022.55992305')},DOGEUSD-{'topAskPrice': Decimal('0.06324'), 'topAskSize': Decimal('10416.0'), 'topBidPrice': Decimal('0.06321'), 'topBidSize': Decimal('1301.0')}`
+
 Check out the /data folder for an example of the full data outputs.
 
 These strategies take advantage of market inefficiencies to produce a small profit. This also has the effect of removing the lagging volume, smoothing out the prices relative to each other and (in an optimal scenario) returning the market to equilibrium.
